@@ -105,11 +105,22 @@ console.log("js");
   console.log(toCapitalize("madina"));
 }
 {
-  // 10 masala
-  function hi(a, b) {
-    for (let i = a; i <= b; i++) {}
+  // 10
+  function repeatString(str, n) {
+    return str.repeat(n);
   }
-  console.log(hi("salom", 3));
+
+  let originalString = "hello ";
+  let repeatedString = repeatString(originalString, 7);
+
+  console.log(repeatedString);
+}
+{
+  // 10 masala 2si
+  function soz(str, n) {
+    console.log(str.repeat(n));
+  }
+  console.log(soz(" hi ", 5));
 }
 
 {
